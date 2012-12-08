@@ -12,7 +12,10 @@ object AkkaTutorialBuild extends Build {
       version := "0.1-SNAPSHOT",
       scalaVersion := "2.9.2",
       resolvers += "Typesafe Releases" at "http://repo.typesafe.com/typesafe/releases",
-      libraryDependencies += "com.typesafe.akka" % "akka-actor" % "2.0.1"
+
+      libraryDependencies ++= Seq("com.typesafe.akka"   %  "akka-actor"     % "2.0.1",
+                                  "com.typesafe.akka"   %  "akka-testkit"   % "2.0.1",
+                                  "org.scalatest"       %%  "scalatest"      % "1.8" )
     )
   )
 }
