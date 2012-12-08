@@ -1,12 +1,12 @@
 # Compute Pi with Akka
 
-[![Build Status](https://secure.travis-ci.org/mattgillooly/akka_tutorial.png?branch=master)](https://travis-ci.org/mattgillooly/akka_tutorial)
+[![Build Status](https://secure.travis-ci.org/mattgillooly/akka_tutorial.png?branch=master)](https://travis-ci.org/mattgillooly/akka\_tutorial)
 
-Following [Typesafe's tutorial](http://typesafe.com/resources/tutorials/getting-started-with-akka-scala.html)
+Use Akka actors to compute an approximation of Pi.
+Builds on top of [Typesafe's tutorial](http://typesafe.com/resources/tutorials/getting-started-with-akka-scala.html) by adding a test suite.
 
-Akka 2.0 sample project using Scala and SBT.
+## Usage
 
-To run and test it use SBT invoke: 'sbt run'
+To run the approximation, invoke: `sbt run`
 
-TODO: Figure out how to write tests for this!
-
+To run the test suite, invoke `sbt test`
